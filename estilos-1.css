@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(225,19,100);
+    font-family: sans-serif;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+}
+
+.footer {
+    color: rgb(255,255,255);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 1rem 3rem 1rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.header {
+    color: rgb(255,255,255);
+    text-align: center;
+    background-color: rgb(188,16,92);
+    margin: 1rem 3rem 1rem;
+    border-left: .3rem solid rgb(255,255,255);
+    border-right: .3rem solid rgb(255,255,255);
+    padding: .1rem;
+    line-height: .5;
+    font-size: larger;
+}
+
+.linea {
+    text-transform: capitalize;
+    border-bottom: .15rem dotted #000;
+    margin: 20px 0;
+    text-align: right;
+    color: rgb(188,16,92);
+}
+
+.catalogo {
+    color: rgb(255,255,255);
+    background-color: rgb(188,16,92);
+    margin: 1rem 3rem 1rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.box-mario {
+    background-color: rgb(255,255,255);
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #000;
+    margin: 2rem 1rem 2rem;
+}
+
+.box-mk {
+    background-color: rgb(255,255,255);
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #000;
+    margin: 2rem 1rem 2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.btn {
+    padding: 12px;
+    background-color: rgb(44,143,32);
+    color: white;
+    text-decoration: none;
+    border-radius: .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*productos*/
+
+/*producto*/
+
+@media (min-width: 768px) {
+    .producto {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.producto {
+    margin: 10px;
+    padding: 10px;
+    gap: 5%;
+    border: 1px solid #775548;
+    border-radius: 10px;
+    background-color: #E1D4CF;
+}
+
+.img {
+    border-radius: 10px;
+    align-items: start;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fa-brands {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.detalle {
+    margin: 10px;
+    padding: 10px;
+    gap: 5%;
+    border: 1px solid #775548;
+    border-radius: 10px;
+    background-color: #E1D4CF;
+}
+
+@media (min-width: 768px) {
+        .capturas {
+        display: flex;
+        gap: 10px;
+        width: 30%;
+    }
+}
+
