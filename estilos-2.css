@@ -44,7 +44,6 @@ header, footer {
 @media (min-width: 768px) {
     .box {
         width: 100%;
-    
     }
     
 }
@@ -81,6 +80,11 @@ img {
     font-family: 'PressStart2P';
     padding: 10px;
     border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #2C8F20;
+    transition: 0.5s;
 }
 
 .button a {
