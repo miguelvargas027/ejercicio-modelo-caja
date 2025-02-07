@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url(./fuentes/PressStart2P-vaV7.ttf);
+}
+
+body {
+    background-color: #060505;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+h1,h2, h3 {
+    padding: 20px 0;
+    margin: 0;
+    font-family: 'PressStart2P';
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer {
+    background-color: #3e4444;
+}
+
+
+.catalogo {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .vendidos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        text-align: justify;
+        margin: 30px 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .box {
+        width: 100%;
+    
+    }
+    
+}
+
+.box {
+    background-color: #3e4444;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+}
+
+.box:hover h3 {
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #f88000;
+    text-align: center;
+    font-family: 'PressStart2P';
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+
